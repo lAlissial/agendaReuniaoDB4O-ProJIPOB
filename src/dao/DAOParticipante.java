@@ -45,8 +45,8 @@ public class DAOParticipante extends DAO<Participante> {
 
 /*-------------------------------------------------*/
 class Filtro implements Evaluation {
-	private int mes;
 	private String nome;
+	private int mes;
 	
 	public Filtro(String nome,int mes) {
 		this.nome = nome;
