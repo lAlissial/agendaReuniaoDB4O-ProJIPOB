@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="javax.mail-1.6.2.jar"/>
+	<classpathentry kind="lib" path="jakarta.activation.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.1.249.16099-core-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.1.249.16099-cs.optional-java5.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-8.1.249.16099-cs-java5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
