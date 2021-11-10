@@ -14,6 +14,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -254,7 +255,7 @@ public class TelaParticipante {
 
 	public void listagem() {
 		try{
-			ArrayList<Participante> lista = Fachada.listarParticipantes();
+			List<Participante> lista = Fachada.listarParticipantes();
 
 			//objeto model contem todas as linhas e colunas da tabela
 			DefaultTableModel model = new DefaultTableModel();
